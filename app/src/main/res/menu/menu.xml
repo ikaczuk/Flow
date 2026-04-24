@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ShowIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/home"
+            android:icon="@drawable/house"
+            android:title="@string/title_home"
+            android:checked="true">
+        </item>
+
+        <item android:id="@+id/account"
+            android:icon="@drawable/account"
+            android:title="@string/title_account">
+        </item>
+
+        <item android:id="@+id/calculator"
+            android:icon="@drawable/calculator"
+            android:title="@string/title_calculator">
+        </item>
+
+        <item android:id="@+id/daily"
+            android:icon="@drawable/daily"
+            android:title="@string/title_today">
+        </item>
+
+        <item android:id="@+id/history"
+            android:icon="@drawable/history"
+            android:title="@string/title_history">
+        </item>
+
+        <item android:id="@+id/notifications"
+            android:icon="@drawable/notifications"
+            android:title="@string/title_notifications">
+        </item>
+
+        <item android:id="@+id/settings"
+            android:icon="@drawable/settings"
+            android:title="@string/title_settings">
+        </item>
+
+        <item android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="@string/title_logout">
+        </item>
+
+    </group>
+
+</menu>
