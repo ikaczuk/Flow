@@ -39,19 +39,10 @@
         app:headerLayout="@layout/nav_header"
         app:itemIconPadding="20dp"
         android:background="@color/blue_light"
-        app:itemTextColor="@color/blue"
-        app:itemIconTint="@color/blue">
+        android:theme="@style/Theme.Navigation"
+        app:itemBackground="@drawable/background_menu"
+        app:itemTextColor="@color/text_color_state"
+        app:itemIconTint="@color/icon_color_state">
     </com.google.android.material.navigation.NavigationView>
-
-<!--    <TextView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:textColor="@color/blue"-->
-<!--        android:textSize="32sp"-->
-<!--        android:text="Welcome to the App!"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
 
 </androidx.drawerlayout.widget.DrawerLayout>

@@ -9,4 +9,7 @@
     </style>
 
     <style name="Theme.LoginSignupSQLFLOW" parent="Base.Theme.LoginSignupSQLFLOW" />
+    <style name="Theme.Navigation" parent="Base.Theme.LoginSignupSQLFLOW">
+        <item name="colorControlHighlight">@android:color/transparent</item>
+    </style>
 </resources>
